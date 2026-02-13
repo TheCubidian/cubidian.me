@@ -1,7 +1,7 @@
 body {
     font-family: 'Mona Sans', monospace;
     background-color: rgb(28, 28, 28);
-    color: rgb(172, 83, 255);
+    color: rgb(222, 222, 222);
     text-align: center;
     padding-top: 10px;
 }
@@ -23,7 +23,7 @@ mark {
 }
 
 p mark {
-    box-shadow: 0 0 0.25em 0.1em rgb(5, 108, 0) inset;
+    box-shadow: 0 0 0.35em 0.1em rgb(5, 108, 0) inset;
     background-color: rgb(118, 255, 111);
     border-radius: 5px;
 }
