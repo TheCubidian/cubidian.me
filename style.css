@@ -1,12 +1,32 @@
-img {
-    width: 200px;
-}
-
 body {
+    font-family: 'Mona Sans', sans-serif;
+    background-color: rgb(28, 28, 28);
+    color: rgb(172, 83, 255);
     text-align: center;
-    font-family: 'Arial';
-    background: rgb(199, 255, 205);
-    color: rgb(105, 6, 197);
-
 }
 
+p {
+    font-size: 140%;
+    font-weight: 570;
+    font-stretch: 107%;
+}
+
+mark {
+    color: black;
+    background-color: rgb(118, 255, 111);
+    border-radius: 5px;
+    padding: 0 0.14em 0.04em 0.14em;
+    box-shadow: 0 0 0.25em 0.1em rgb(5, 108, 0) inset;
+}
+
+h1 mark {
+    box-shadow: 0 0 0.5em 5px rgb(120, 239, 255);
+}
+
+hr {
+    height: 0.1em;
+    width: 8em;
+    border-width: 0;
+    background-color: rgb(201, 201, 201);
+    border-radius: 0.05em;
+}
