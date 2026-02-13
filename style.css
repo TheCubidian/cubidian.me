@@ -1,8 +1,14 @@
 body {
-    font-family: 'Mona Sans', sans-serif;
+    font-family: 'Mona Sans', monospace;
     background-color: rgb(28, 28, 28);
     color: rgb(172, 83, 255);
     text-align: center;
+    padding-top: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Domine', serif;
+    font-weight: 700;
 }
 
 p {
@@ -13,14 +19,21 @@ p {
 
 mark {
     color: black;
+    padding: 0 0.14em 0.04em 0.14em;
+}
+
+p mark {
+    box-shadow: 0 0 0.25em 0.1em rgb(5, 108, 0) inset;
     background-color: rgb(118, 255, 111);
     border-radius: 5px;
-    padding: 0 0.14em 0.04em 0.14em;
-    box-shadow: 0 0 0.25em 0.1em rgb(5, 108, 0) inset;
 }
 
 h1 mark {
-    box-shadow: 0 0 0.5em 5px rgb(120, 239, 255);
+    box-shadow: 0 0 0.6em 5px rgb(120, 239, 255);
+    border-radius: 6px;
+    padding-top: 0.22em;
+    padding-bottom: 0.07em;
+    
 }
 
 hr {
@@ -29,4 +42,5 @@ hr {
     border-width: 0;
     background-color: rgb(201, 201, 201);
     border-radius: 0.05em;
+    margin-bottom: 1em;
 }
