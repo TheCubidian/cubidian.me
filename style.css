@@ -13,34 +13,44 @@ h1, h2, h3 {
 
 p {
     font-size: 140%;
-    font-weight: 570;
+    font-weight: 500;
     font-stretch: 107%;
 }
 
 mark {
-    color: black;
     padding: 0 0.14em 0.04em 0.14em;
 }
 
 p mark {
-    box-shadow: 0 0 0.35em 0.1em rgb(5, 108, 0) inset;
+    color: black;
+    box-shadow: 0 0 0.5em 0.1em rgb(5, 108, 0) inset;
     background-color: rgb(118, 255, 111);
     border-radius: 5px;
 }
 
 h1 mark {
-    box-shadow: 0 0 0.6em 5px rgb(120, 239, 255);
+    color: white;
+    box-shadow: 0 0 12px 6px rgba(0,83,255,0.35);
     border-radius: 6px;
     padding-top: 0.22em;
     padding-bottom: 0.07em;
-    
 }
 
 hr {
     height: 0.1em;
-    width: 8em;
+    width: 10em;
     border-width: 0;
     background-color: rgb(201, 201, 201);
     border-radius: 0.05em;
     margin-bottom: 1em;
+}
+
+footer {
+    font-family: "Fira Code", monospace;
+    font-stretch:110%;
+    color: rgb(126, 126, 126);
+}
+
+footer a {
+    color: inherit;
 }
