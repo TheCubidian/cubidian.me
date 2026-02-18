@@ -21,22 +21,30 @@ p {
     font-stretch: 107%;
 }
 
-mark {
-    padding: 0 0.14em 0.04em 0.14em;
-}
-
-p mark {
-    color: black;
-    box-shadow: 0 0 0.5em 0.1em rgb(5, 108, 0) inset;
-    background-color: rgb(118, 255, 111);
-    border-radius: 5px;
-}
-
 h1 mark {
     color: white;
     border-radius: 6px;
-    padding-top: 0.22em;
-    padding-bottom: 0.07em;
+    padding: 0.22em 0.14em 0.07em
+}
+
+p mark {
+    padding: 0 0.14em 0.04em;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 99, 61);
+}
+
+p a {
+    padding: 0 0.14em 0.04em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 0 0.1em rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.shadow-box {
+    width: 10px;
+    margin: 1.5em auto 1.5em;
+    border-radius: 7px;
 }
 
 hr {
@@ -46,6 +54,13 @@ hr {
     background-color: rgb(201, 201, 201);
     border-radius: 0.05em;
     margin-bottom: 1em;
+}
+
+.return-home {
+    display:inline-block;
+    color:rgb(128, 60, 255);
+    text-decoration: none;
+    margin-top: 0.3em;
 }
 
 footer {
