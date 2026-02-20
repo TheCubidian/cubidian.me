@@ -112,6 +112,7 @@ footer {
     font-stretch: 110%;
     color: var(--text-grey);
     background-color: var(--bg-dark-grey);
+    padding: 0.7em 0;
     margin: 0;
     
     a {
