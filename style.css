@@ -7,9 +7,10 @@
     --text-grey: rgb(80, 80, 80);
     --green: rgb(0, 148, 93);
     --dark-green: rgb(0, 77, 53);
+    --blue: rgb(0, 102, 208);
     --bg-grey: rgb(28, 28, 28);
-    --bg-purple: rgb(38, 29, 65);
     --bg-dark-grey: rgb(15, 15, 15);
+    --bg-purple: rgb(45, 31, 86);
     --p-highlight: rgb(0, 99, 61);
     --bg-header: rgba(0, 0, 0), 0.2;
 }
@@ -20,7 +21,7 @@ html {
 
 body {
     font-family: 'Mona Sans', monospace;
-    background-image: linear-gradient(-20deg, var(--bg-purple) 0, var(--bg-purple) 49.7%, white 49.9%, white 50.1%, var(--p-highlight) 50.3%, var(--p-highlight) 100%);
+    background-image: linear-gradient(-20deg, var(--blue) 0, var(--bg-purple) 30%, var(--bg-purple) 49.94%, white 49.94%, white 50.06%, var(--p-highlight) 50.06%, var(--p-highlight) 70%, var(--blue) 100%);
     margin: 0;
 }
 
@@ -100,14 +101,6 @@ p a {
     border-radius: 7px;
 }
 
-hr.footer {
-    height: 0.15rem;
-    width: 100%;
-    border-width: 0;
-    background-color: var(--dark-green);
-    margin: auto 0 0;
-}
-
 .return-home {
     display: block;
     color: rgb(128, 60, 255);
@@ -117,7 +110,7 @@ hr.footer {
 }
 
 .current-nav-site {
-    color: var(--text-grey);
+    color: rgb(47, 47, 47);
     text-decoration: none;
 }
 
@@ -134,7 +127,8 @@ footer {
     color: var(--text-grey);
     background-color: var(--bg-dark-grey);
     padding: 1rem 0 0.6rem;
-    margin: 0;
+    border-top: 0.1rem solid white;
+    margin: auto 0 0;
 
     a {
     color: inherit;
