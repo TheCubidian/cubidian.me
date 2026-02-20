@@ -116,6 +116,11 @@ hr.footer {
     margin-top: 0.3rem;
 }
 
+.current-nav-site {
+    color: var(--text-grey);
+    text-decoration: none;
+}
+
 .page-wrapper {
     min-height: 100vh;
     display: flex;
