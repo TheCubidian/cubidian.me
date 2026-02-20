@@ -100,7 +100,7 @@ hr.footer {
 }
 
 .content-wrapper {
-    min-height: 100vh;
+    min-height: calc(100vh - 10px);
     display: flex;
     flex-direction: column;
     padding-top: 10px;
