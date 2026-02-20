@@ -55,13 +55,17 @@ nav {
 
     li {
         font-size: 1.6rem;
+    }
 
-        a {
-            color: white;
-            text-decoration-style: solid;
-            text-decoration-color: yellow;
+    a {
+        color: white;
+        text-decoration-style: solid;
+        text-decoration-color: yellow;
         }
-    } 
+
+    a:hover, a:focus {
+        text-decoration-style: wavy;
+    }
 }
 
 h1, h2, h3 {
