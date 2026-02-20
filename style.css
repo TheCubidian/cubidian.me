@@ -2,20 +2,55 @@
 @import url(https://fonts.googleapis.com/css2?family=Domine:ital,wght@0,400..700;1,400..700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap);
 
+:root {
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --text-white: rgb(222, 222, 222);
+    --text-grey: rgb(126, 126, 126);
+    --bg-grey: rgb(28, 28, 28);
+    --bg-dark-grey: rgb(15, 15, 15);
+    --p-highlight: rgb(0, 99, 61);
+}
+
+html {
+height: 100%;
+}
+
 body {
     font-family: 'Mona Sans', monospace;
-    background-color: rgb(28, 28, 28);
-    color: rgb(222, 222, 222);
+    background-color: var(--bg-grey);
     text-align: center;
-    padding-top: 10px;
+    margin: 0;
+}
+
+main {
+    flex:1;
+    align-items: center;
+}
+
+nav {
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }  
+    } 
 }
 
 h1, h2, h3 {
     font-family: 'Domine', serif;
     font-weight: 700;
+    font-size: 3rem;
 }
 
 p {
+    color: var(--text-white);
     font-size: 140%;
     font-weight: 500;
     font-stretch: 107%;
@@ -24,51 +59,61 @@ p {
 h1 mark {
     color: white;
     border-radius: 6px;
-    padding: 0.22em 0.14em 0.07em
+    padding: 0.22rem 0.14rem 0.07rem
 }
 
 p mark {
-    padding: 0 0.14em 0.04em;
-    color:rgb(255, 255, 255);
-    background-color: rgb(0, 99, 61);
+    padding: 0 0.14rem 0.04rem;
+    color: var(--white);
+    background-color: var(--p-highlight);
 }
 
 p a {
-    padding: 0 0.14em 0.04em;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0 0 0 0.1em rgb(255, 255, 255);
+    padding: 0 0.14rem 0.04rem;
+    color: inherit;
+    background-color: var(--black);
+    box-shadow: 0 0 0 0.1rem var(--white);
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .shadow-box {
     width: 10px;
-    margin: 1.5em auto 1.5em;
+    margin: 1.5rem auto 1.5rem;
     border-radius: 7px;
 }
 
-hr {
-    height: 0.1em;
-    width: 10em;
+hr.footer {
+    height: 0.2rem;
+    width: 100%;
     border-width: 0;
-    background-color: rgb(201, 201, 201);
-    border-radius: 0.05em;
-    margin-bottom: 1em;
+    background-color: var(--text-grey);
+    margin: 0 auto;
+    
 }
 
 .return-home {
-    display:inline-block;
-    color:rgb(128, 60, 255);
+    display: inline-block;
+    color: rgb(128, 60, 255);
     text-decoration: none;
-    margin-top: 0.3em;
+    margin-top: 0.3rem;
+}
+
+.content-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
 }
 
 footer {
     font-family: "Fira Code", monospace;
-    font-stretch:110%;
-    color: rgb(126, 126, 126);
-}
-
-footer a {
+    font-stretch: 110%;
+    color: var(--text-grey);
+    background-color: var(--bg-dark-grey);
+    margin: 0;
+    
+    a {
     color: inherit;
-}
+    } 
+} 
