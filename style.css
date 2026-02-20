@@ -6,7 +6,8 @@
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
     --text-white: rgb(222, 222, 222);
-    --text-grey: rgb(126, 126, 126);
+    --text-grey: rgb(80, 80, 80);
+    --hr-grey: rgb(75, 22, 0);
     --bg-grey: rgb(28, 28, 28);
     --bg-dark-grey: rgb(15, 15, 15);
     --p-highlight: rgb(0, 99, 61);
@@ -87,7 +88,7 @@ hr.footer {
     height: 0.2rem;
     width: 100%;
     border-width: 0;
-    background-color: var(--text-grey);
+    background-color: var(--hr-grey);
     margin: 0 auto;
     
 }
