@@ -95,7 +95,7 @@ p mark {
 }
 
 p a {
-    color: inherit;
+    color: deepskyblue;
     text-decoration: none;
 }
 
@@ -107,14 +107,13 @@ p a {
 
 .return-home {
     display: block;
-    color: rgb(128, 60, 255);
     text-align: center;
     text-decoration: none;
     margin-top: 0.3rem;
 }
 
 .current-nav-site {
-    color: rgb(47, 47, 47);
+    color: lawngreen;
     text-decoration: none;
 }
 
