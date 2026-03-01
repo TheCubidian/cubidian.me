@@ -30,7 +30,7 @@ main {
     background-color: var(--bg-grey);
     padding: 0 2rem;
     margin: 4rem 15% 1.5rem;
-    border-radius: 20px 20px 10px 10px;
+    border-radius: 20px;
     box-shadow: 0 0 0 0.05rem white, 0 0 20px 5px black inset;
 }
 
